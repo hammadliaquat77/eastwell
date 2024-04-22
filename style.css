@@ -1,0 +1,1650 @@
+body{
+   height: 7000px;
+   width: auto;
+   background-color: white;
+}
+
+.background{
+   position: relative;
+   background-image: url(img/1.jpg);
+   height: 600px;
+   width: auto;
+   margin-top: -16px;
+   margin-left: -8px;
+   margin-right: -8px;
+}
+
+
+p{
+   position: absolute;
+   color: whitesmoke;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   margin-top: 70px;
+   margin-left: 100px;
+   transition: 0.5s;
+
+}
+
+.background>p:hover{
+    transform: scaleX(1.5);
+    cursor: not-allowed;
+   
+
+}
+
+.navbar,ul{
+   display: flex;
+   position: absolute;
+   font-size: medium;
+   gap: 60px;
+   margin-left: 250px;
+   margin-top: 40px;
+}
+
+.navbar,ul,li,a{
+   list-style: none;
+   text-decoration: none;
+   color: lightgray;
+}
+
+.navbar>ul>li>a:hover{
+   color: hotpink;
+   text-decoration: underline 3px solid aqua;
+   
+   
+}
+
+.paragraph>h1{
+   position: absolute;
+   color: white;
+   font-size: 70px;
+   width: 800px;
+   margin-left: 350px;
+   margin-top: 40vh;
+}
+
+.paragraph>p{
+   font-size: 20px;
+   margin-left: 65vh;
+   margin-top: 55vh;
+   color: lightgray;
+}
+
+.paragraph>button{
+   height: 60px;
+   width: 170px;
+   font-size: large;
+   margin-left: 90vh;
+   margin-top: 65vh;
+   background-color: transparent;
+   color: white;
+   border-color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   transition: 0.5s;
+}
+
+.paragraph>button:hover{
+  transform: scale(1.3);
+  background-color: rgba(255, 255, 0, 0.309);
+  border-radius: 50px;
+}
+
+
+
+.section1{
+   position: relative;
+   height: 550px;
+   width: auto;
+   margin-top: -21px;
+   margin-left: -8px;
+   margin-right: -8px;
+   background-color: whitesmoke;
+}
+
+.paragraph1{
+   position: absolute;
+   margin-top: 50px;
+   margin-left: 100px;   
+}
+
+.paragraph1>h4{
+   font-family: Arial, Helvetica, sans-serif;
+   color: gray;
+   letter-spacing: 13px;
+   font-size: 20px;
+   
+}
+
+.paragraph1>h4:hover{
+   color: blue;
+   
+}
+
+.paragraph1> h1{
+   font-size: 50px;
+   margin-top: -10px;
+}
+
+.paragraph1>p{
+   width: 700px;
+   font-size: 18px;
+   margin-left: 0px;
+   margin-top: -20px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 25px;
+   color: gray;
+}
+
+.paragraph1>button{
+   height: 60px;
+   width: 250px;
+   margin-top: 25vh;
+   font-size: medium;
+   font-family: Arial, Helvetica, sans-serif;
+   color: gray;
+   border-color: gray;
+   border-radius: 5px;
+   transition: 0.5s;
+}
+
+.paragraph1>button:hover{
+   transform: scale(1.2);
+   background-color: darkcyan;
+   color: white;
+   border: none;
+}
+
+.imagination{
+   height: 370px;
+   margin-left: 55vh;
+   margin-top: -25vh;
+   transition: 0.5s;
+}
+
+.imagination:hover{
+   transform: scale(0.9);
+   border: 1px solid grey;
+   cursor: no-drop;
+}
+
+
+
+
+.section2{
+   position: relative;
+   height: 1250px;
+   width: auto;
+   margin-top: -21px;
+   margin-left: -8px;
+   margin-right: -8px;
+   background-color: white;
+}
+
+
+.paragraph2{
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 550px;   
+}
+
+.paragraph2>h4{
+   font-family: Arial, Helvetica, sans-serif;
+   color: gray;
+   letter-spacing: 13px;
+   font-size: 20px;
+}
+
+.paragraph2>h4:hover{
+    color: crimson;   
+}
+
+.paragraph2>h1{
+   font-size: 60px;
+   margin-left: -170px;
+   
+}
+
+.paragraph2>h1:hover{
+   color: #3367D1;   
+   cursor: no-drop;
+
+}
+
+.paragraph2>p{
+   width: 700px;
+   font-size: 20px;
+   color: gray;
+   margin-left: -160px;
+   margin-top: -40px;
+   line-height: 40px;
+}
+
+.paragraph2>p>span{
+  margin-left: 50px;
+}
+
+
+/*                 //card   2          */ 
+
+.card1{
+   position: absolute;
+   height: 600px;
+   width: 350px;
+   border: 1px solid black;
+   background-color: whitesmoke;
+   margin-top: 170px;
+   margin-left: -400px;
+   transition: 0.5s;
+}
+
+.card1:hover{
+   position: absolute;
+   transform: scale(1.1);
+}
+
+.card1>img{
+   height: 250px;
+   width: 350px;
+}
+
+.card1>h4{
+   font-size: 25px;
+   color: orangered;
+   font-family: fantasy;
+   margin-left: 140px;
+   margin-top: 30px;
+   font-weight: bolder;
+   word-spacing: 20px;
+}
+
+.card1>h4:hover{
+   color: indigo;
+}
+
+.card1>h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 50px;
+   font-size: x-large;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+.card1>p{
+   width: 700px;
+   font-size: medium;
+   color: gray;
+   margin-top: -10px;
+   margin-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 25px;
+}
+
+.card1>p>span{
+   margin-left: 70px;
+}
+
+.card1>button{
+   height: 50px;
+   width: 120px;
+   background-color: orange;
+   color: white;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+   margin-left: 110px;
+   margin-top: 120px;
+}
+
+.card1>button:hover{
+   
+   transform: scalex(1.5); 
+  border: 1px solid black;
+}
+
+
+/* //card   2    */
+
+
+.card2{
+   position: absolute;
+   height: 600px;
+   width: 350px;
+   background-color: whitesmoke;
+   border: 1px solid black;
+   margin-top: 170px;
+   margin-left: -40px;
+   transition: 0.5s;
+}
+
+.card2:hover{
+   position: absolute;
+   transform: scale(1.1);
+}
+
+
+
+
+.card2>img{
+   height: 250px;
+   width: 350px;
+}
+
+.card2>h4{
+   font-size: 25px;
+   color: orangered;
+   font-family: fantasy;
+   margin-left: 140px;
+   margin-top: 30px;
+   font-weight: bolder;
+   word-spacing: 20px;
+}
+
+.card2>h4:hover{
+   color: indigo;
+}
+
+.card2>h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 50px;
+   font-size: x-large;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+.card2>p{
+   width: 700px;
+   font-size: medium;
+   color: gray;
+   margin-top: -10px;
+   margin-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 25px;
+}
+
+.card2>p>span{
+   margin-left: 70px;
+}
+
+.card2>button{
+   height: 50px;
+   width: 120px;
+   background-color: orange;
+   color: white;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+   margin-left: 110px;
+   margin-top: 120px;
+}
+
+.card2>button:hover{
+   
+   transform: scalex(1.5); 
+  border: 1px solid black;
+}
+
+
+
+/*            Card 3       */
+
+
+.card3{
+   position: absolute;
+   height: 600px;
+   width: 350px;
+   border: 1px solid black;
+   background-color: whitesmoke;
+   margin-top: 170px;
+   margin-left: 320px;
+   transition: 0.5s;
+}
+
+.card3:hover{
+   position: absolute;
+   transform: scale(1.1);
+}
+
+
+.card3>img{
+   height: 250px;
+   width: 350px;
+}
+
+.card3>h4{
+   font-size: 25px;
+   color: orangered;
+   font-family: fantasy;
+   margin-left: 140px;
+   margin-top: 30px;
+   font-weight: bolder;
+   word-spacing: 20px;
+}
+
+.card3>h4:hover{
+   color: indigo;
+}
+
+.card3>h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-left: 100px;
+   font-size: x-large;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+.card3>p{
+   width: auto;
+   font-size: medium;
+   color: gray;
+   margin-top: -10px;
+   margin-left: 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 25px;
+}
+
+.card3>p>span{
+   margin-left: 70px;
+}
+
+.card3>button{
+   height: 50px;
+   width: 120px;
+   background-color: orange;
+   color: white;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 16px;
+   margin-left: 110px;
+   margin-top: 120px;
+   transition: 0.5s;
+}
+
+.card3>button:hover{
+   
+    transform: scalex(1.5); 
+   border: 1px solid black;
+}
+
+
+
+
+
+
+.section3{
+   position: relative;
+   height: 1100px;
+   width: auto;
+   margin-top: -21px;
+   margin-left: -8px;
+   margin-right: -8px;
+   background-color: whitesmoke;
+}
+
+
+
+.paragraph3{
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 500px;   
+}
+
+.paragraph3>h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 60px;
+
+}
+
+.paragraph3>h1:hover{
+   color: darkred;
+   cursor: no-drop;
+   
+}
+
+.paragraph3>p{
+   width: 700px;
+   font-size: 20px;
+   color: gray;
+   margin-left: -100px;
+   margin-top: -40px;
+   line-height: 40px;
+}
+
+.paragraph3>p>span{
+  margin-left: 50px;
+}
+
+.button{
+   height: 45px;
+   width: 150px;
+   font-size: 20px;
+   color: gray;
+   margin-top: 50px;
+   transition: 0.5s;
+}
+
+.button:hover{
+   background-color: rgb(32, 149, 36);
+   color: white;
+   transform: scale(1.2);
+}
+
+
+/*                           detail                   */
+
+
+.detail{
+   position: relative;
+   margin-left: -400px;
+   margin-top: 100px;
+   transition: 0.5s;
+}
+
+.detail:hover{
+   transform: scale(1.1);
+   cursor: progress;
+
+}
+
+.detail>img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+}
+
+.detail>h1{
+   margin-left: 130px;
+   margin-top: -110px;
+}
+
+.detail>p{
+   color: gray;
+   font-size: 14px;
+   margin-left: 130px;
+   margin-top: -10px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail>h4{
+   color: orangered;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 130px;
+   margin-top: 70px;
+}
+
+
+/*                           detail   1                  */
+
+
+.detail1{
+   position: absolute;
+   margin-left: 150px;
+   margin-top: -200px;
+   transition: 0.5s;
+}
+
+.detail1:hover{
+   transform: scale(1.1);
+   cursor: progress;
+
+}
+
+.detail1>img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+}
+
+.detail1>h1{
+   margin-left: 130px;
+   margin-top: -110px;
+}
+
+.detail1>p{
+   width: 500px;
+   color: gray;
+   font-size: 14px;
+   margin-left: 130px;
+   margin-top: -10px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail1>h4{
+   color: orangered;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 130px;
+   margin-top: 70px;
+}
+
+
+
+/*                           detail      2              */
+
+
+.detail2{
+   margin-left: -400px;
+   margin-top: 50px;
+   transition: 0.5s;
+}
+
+.detail2:hover{
+   transform: scale(1.1);
+   cursor: progress;
+
+}
+
+.detail2>img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+}
+
+.detail2>h1{
+   margin-left: 130px;
+   margin-top: -110px;
+}
+
+.detail2>p{
+   color: gray;
+   font-size: 14px;
+   margin-left: 130px;
+   margin-top: -10px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail2>h4{
+   color: orangered;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 130px;
+   margin-top: 70px;
+}
+
+
+
+/*                           detail   3                  */
+
+
+.detail3{
+   position: absolute;
+   margin-left: 150px;
+   margin-top: -200px;
+   transition: 0.5s;
+}
+
+.detail3:hover{
+   transform: scale(1.1);
+   cursor: progress;
+}
+
+.detail3>img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+}
+
+.detail3>h1{
+   margin-left: 130px;
+   margin-top: -110px;
+}
+
+.detail3>p{
+   width: 500px;
+   color: gray;
+   font-size: 14px;
+   margin-left: 130px;
+   margin-top: -10px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail3>h4{
+   color: orangered;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 130px;
+   margin-top: 70px;
+}
+
+
+
+
+/*                           detail      4             */
+
+
+.detail4{
+   margin-left: -400px;
+   margin-top: 50px;
+   transition: 0.5s;
+}
+
+.detail4:hover{
+   transform: scale(1.1);
+   cursor: progress;
+
+}
+
+.detail4>img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+}
+
+.detail4>h1{
+   margin-left: 130px;
+   margin-top: -110px;
+}
+
+.detail4>p{
+   color: gray;
+   font-size: 14px;
+   margin-left: 130px;
+   margin-top: -10px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail4>h4{
+   color: orangered;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 130px;
+   margin-top: 70px;
+}
+
+
+
+/*                           detail   5                  */
+
+
+.detail5{
+   position: absolute;
+   margin-left: 150px;
+   margin-top: -200px;
+   transition: 0.5s;
+}
+
+.detail5:hover{
+   transform: scale(1.1);
+   cursor: progress;
+
+}
+
+.detail5>img{
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+}
+
+.detail5>h1{
+   margin-left: 130px;
+   margin-top: -110px;
+}
+
+.detail5>p{
+   width: 500px;
+   color: gray;
+   font-size: 14px;
+   margin-left: 130px;
+   margin-top: -10px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail5>h4{
+   color: orangered;
+   font-size: 25px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 130px;
+   margin-top: 70px;
+}
+
+
+
+
+
+
+.section4{
+   position: relative;
+   height: 1000px;
+   width: auto;
+   margin-top: -21px;
+   margin-left: -8px;
+   margin-right: -8px;
+   background-color: whitesmoke;
+}
+
+
+
+.paragraph4{
+   position: absolute;
+   margin-top: 60px;
+ 
+}
+
+.paragraph4>h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 60px;
+   margin-left: 600px;
+}
+
+.paragraph4>h1:hover{
+   color: orangered;
+   cursor: wait;
+}
+
+.paragraph4>p{
+   width: 700px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: -40px;
+   margin-left: 400px;
+   color: gray;
+   line-height: 30px;
+}
+
+.paragraph4>p>span{
+   margin-left: 60px;
+}
+
+
+
+/* Card 4   */   
+
+.card4{
+   position: absolute;
+   height: 600px;
+   width: 400px;
+   border: 1px solid black;
+   background-color: whitesmoke;
+   margin-top: 120px;
+   margin-left: 60px;
+   transition: 0.5s;
+}
+
+.card4:hover{
+ transform: scale(0.9);
+ border: 1px solid  blue;
+ 
+} 
+
+.card4>img{
+   height: 300px;
+   width: 400px;
+}
+
+.card4>h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-size: 30px;
+   margin-left: 80px;
+}
+
+.card4>h1>span{
+   margin-left: 80px;
+}
+
+.card4>p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: gray;
+   margin-top: -05px;
+   line-height: 25px;
+   margin-left: 90px;
+}
+
+.card4>p>span{
+   margin-left: 40px;
+}
+
+.card4>button{
+   height: 40px;
+   width: 100px;
+   margin-left: 150px;
+   margin-top: 120px;
+   border: none;
+   background-color: orange;
+}
+
+.card4>button:hover{
+   
+   transform: scalex(1.5); 
+  border: 1px solid black;
+  background-color: lightseagreen;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+
+/* Card 5   */   
+
+.card5{
+   position: absolute;
+   height: 600px;
+   width: 400px;
+   border: 1px solid black;
+   background-color: whitesmoke;
+   margin-top: 120px;
+   margin-left: 74vh;
+   transition: 0.5s;
+}
+
+.card5:hover{
+   transform: scale(0.9);
+   border: 1px solid  blue;
+  }
+
+.card5>img{
+  height: 300px;
+  width: 400px;
+}
+
+
+
+.card5>h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-size: 30px;
+   margin-left: 80px;
+}
+
+.card5>h1>span{
+   margin-left: 80px;
+}
+
+.card5>p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: gray;
+   margin-top: -05px;
+   line-height: 25px;
+   margin-left: 90px;
+}
+
+.card5>p>span{
+   margin-left: 40px;
+}
+
+.card5>button{
+   height: 40px;
+   width: 100px;
+   margin-left: 150px;
+   margin-top: 120px;
+   background-color: orange;
+   border: none;
+
+}
+
+.card5>button:hover{
+   
+   transform: scalex(1.5); 
+  border: 1px solid black;
+  background-color: lightseagreen;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+
+/* Card 6   */   
+
+.card6{
+   position: absolute;
+   height: 600px;
+   width: 400px;
+   border: 1px solid black;
+   background-color: whitesmoke;
+   margin-top: 120px;
+   margin-left: 139vh;
+   transition: 0.5s;
+}
+
+.card6:hover{
+   transform: scale(0.9);
+   border: 1px solid  blue;
+  }
+
+
+.card6>img{
+   height: 300px;
+   width: 400px;
+ }
+
+ 
+.card6>h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+   font-size: 30px;
+   margin-left: 80px;
+}
+
+.card6>h1>span{
+   margin-left: 80px;
+}
+
+.card6>p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: gray;
+   margin-top: -05px;
+   line-height: 25px;
+   margin-left: 90px;
+}
+
+.card6>p>span{
+   margin-left: 40px;
+}
+
+.card6>button{
+   height: 40px;
+   width: 100px;
+   margin-left: 150px;
+   margin-top: 120px;
+   background-color: orange;
+   border: none;
+}
+
+
+.card6>button:hover{
+   
+   transform: scalex(1.5); 
+  border: 1px solid black;
+  background-color: lightseagreen;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+/*                       secttion   5                */
+
+
+.section5{
+   position: relative;
+   height: 1150px;
+   width: auto;
+   margin-top: -21px;
+   margin-left: -8px;
+   margin-right: -8px;
+   background-color: white;
+}
+
+
+
+.paragraph5{
+   position: absolute;
+   margin-top: 60px;
+ 
+}
+
+.paragraph5>h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 60px;
+   margin-left: 600px;
+}
+
+.paragraph5>h1:hover{
+   color: darkgreen;
+   cursor: not-allowed;
+}
+
+.paragraph5>p{
+   width: 700px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: -40px;
+   margin-left: 400px;
+   color: gray;
+   line-height: 30px;
+}
+
+.paragraph5>p>span{
+   margin-left: 60px;
+}
+
+
+
+
+.Gallery{
+   height: 755px;
+   width: 1150px;
+   margin-left: 100px;
+   margin-top: 150px;
+   
+}
+
+
+
+.image1{
+   
+  height: 370px;
+  width: 370px;
+  margin-top: 0px;
+  margin-left: 0px;
+  transition: 0.5s;
+}
+
+.image1:hover{
+   transform: scale(1.1);
+   border-radius: 50px;
+   
+}
+
+
+.image2{
+   
+   height:370px;
+   width: 370px;
+   margin-top: 0px;
+   margin-left: 10px;
+   transition: 0.5s;
+ }
+ 
+ .image2:hover{
+   transform: scale(1.1);
+   border-radius: 50px;
+   
+}
+
+.image3{
+   
+   height: 370px;
+   width: 370px;
+   margin-top: 0px;
+   margin-left: 10px;
+   transition: 0.5s;
+ }
+
+ .image3:hover{
+   transform: scale(1.1);
+   border-radius: 50px;
+   
+}
+
+ .image4{
+   
+   height: 370px;
+   width: 370px;
+   margin-top: 10px;
+   margin-left: 0px;
+   transition: 0.5s;
+ }
+
+
+ .image4:hover{
+   transform: scale(1.1);
+   border-radius: 50px;
+   
+}
+
+ 
+ .image5{
+    
+    height: 370px;
+    width: 370px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+  }
+  
+
+  .image5:hover{
+   transform: scale(1.1);
+   border-radius: 50px;
+   
+}
+ 
+ .image6{
+    
+    height: 370px;
+    width: 370px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.5s;
+  }
+ 
+
+  .image6:hover{
+   transform: scale(1.1);
+   border-radius: 50px;
+   
+}
+ 
+ 
+ 
+ /*                       secttion   6                */
+
+
+
+
+  .section6{
+   position: relative;
+   height: 1150px;
+   width: auto;
+   margin-top: -21px;
+   margin-left: -8px;
+   margin-right: -8px;
+   background-color: whitesmoke;
+}
+
+
+
+.paragraph6{
+   position: absolute;
+   margin-top: 60px;
+ 
+}
+
+.paragraph6>h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 60px;
+   margin-left: 520px;
+}
+
+.paragraph6>h1:hover{
+   color: olive;
+}
+
+.paragraph6>p{
+   width: 700px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: -40px;
+   margin-left: 400px;
+   color: gray;
+   line-height: 30px;
+}
+
+.paragraph6>p>span{
+   margin-left: 60px;
+}
+
+.Name{
+   height: 50px;
+   width: 650px;
+   border: none;
+   background-color: lightgray;
+   margin-left: 150px;
+   margin-top: 100px;
+   font-size: x-large;
+}
+
+.Name::placeholder{
+   position: absolute;
+   margin-left: 10px;
+   font-size:x-large;
+   margin-top: 0px;
+   color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+.Email{
+   height: 50px;
+   width: 650px;
+   border: none;
+   background-color: lightgray;
+   margin-left: 150px;
+   font-size: x-large;
+}
+
+.Email::placeholder{
+   position: absolute;
+   margin-left: 10px;
+   font-size:x-large;
+   margin-top: 0px;
+   color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+textarea{
+   height: 400px;
+   width: 650px;
+   border: none;
+   background-color: lightgray;
+   margin-left: 150px;
+   font-size: x-large;
+   
+}
+
+
+textarea::placeholder{
+   position: absolute;
+   margin-left: 10px;
+   font-size:x-large;
+   margin-top: 10px;
+   color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.paragraph6>button{
+   height: 50px;
+   width: 200px;
+   margin-left: 150px;
+   background-color: orange;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: large;
+   font-weight: bold;
+   color: white;
+   transition: 0.5s;
+}
+
+.paragraph6>button:hover{
+   transform: scale(1.1);
+   background-color: darkcyan;
+   cursor: wait   ;
+}
+
+
+.paragraph6>img{
+   position: absolute;
+   height: 300px;
+   width: 400px;
+   margin-left: 135vh;
+   margin-top: -570px;
+   transition: 0.5s;
+}
+
+.paragraph6>img:hover{
+   transform: scale(1.1);
+   border: 2px solid darkcyan;
+}
+
+ .city{
+   font-size: 20px;
+   color: gray;
+   margin-left: 870px;
+   font-weight: lighter;
+   margin-top: 640px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+.city>span{
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: orange;
+   font-weight: lighter;
+   
+}
+
+
+.city:hover{
+   cursor: no-drop;
+   color: black;
+}
+
+
+
+
+
+
+
+ /*                       secttion   7                */
+
+
+
+
+ .section7{
+   height: 600px;
+   width: auto;
+   margin-top: -21px;
+   margin-left: -8px;
+   margin-right: -8px;
+   background-color: white;
+}
+
+
+
+.paragraph7{
+   height: 550px;
+   width: 200vh;
+   background-color: rgb(1, 1, 1);
+   margin-left: 30px;
+ 
+}
+
+.end1>h2{
+   position: absolute;
+   color: turquoise;
+   font-size:x-large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 100px;
+   margin-top: 40px;
+   color: lightgray;
+}
+
+.end1>h2:hover{
+   color: #3367D1;
+   border-bottom: 2px solid yellow;
+}
+
+.end1>p{
+   margin-top: 80px;
+   font-size: 16px;
+   color: gray;
+   margin-left: 100px;
+   line-height: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.end2>p{
+   position: absolute;
+   color: turquoise;
+   font-size:medium;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 550px;
+   margin-top: 40px;
+   color: lightgray;
+   transition: 0.5s;
+}
+
+.end2>p:hover{
+   color: #3367D1;
+   transform: scale(1.1);
+   border-bottom: 2px solid yellow;
+   cursor: not-allowed;
+
+}
+
+.end2>ul{
+   position: absolute;
+   display: block;
+   margin-left: 510px;
+   margin-top: 80px;
+}
+
+.end2>ul>li>a{
+   font-size:  medium;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 50px;
+   color: gray;
+}
+
+
+.end2>ul>li>a:hover{
+   color: whitesmoke;
+      border-bottom: 2px solid blueviolet;
+}
+
+
+
+.end3>p{
+   position: absolute;
+   color: turquoise;
+   font-size:medium;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 800px;
+   margin-top: 40px;
+   color: lightgray;
+}
+
+.end3>p:hover{
+   color: #3367D1;
+   transform: scale(1.1);
+   border-bottom: 2px solid yellow;
+   cursor: not-allowed;
+
+}
+
+.end3>ul{
+   position: absolute;
+   display: block;
+   margin-left: 765px;
+   margin-top: 80px;
+}
+
+.end3>ul>li>a{
+   font-size:  medium;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 50px;
+   color: gray;
+}
+
+.end3>ul>li>a:hover{
+   color: whitesmoke;
+      border-bottom: 2px solid blueviolet;
+}
+
+
+
+
+.end4>p{
+   position: absolute;
+   color: turquoise;
+   font-size:medium;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-left: 1050px;
+   margin-top: 40px;
+   color: lightgray;
+}
+
+.end4>p:hover{
+   color: #3367D1;
+   transform: scale(1.1);
+   border-bottom: 2px solid yellow;
+   cursor: not-allowed;
+}
+
+
+
+.end4>ul{
+   position: absolute;
+   display: block;
+   margin-left: 1020px;
+   margin-top: 80px;
+}
+
+.end4>ul>li>a{
+   font-size:  medium;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 50px;
+   color: gray;
+}
+
+.end4>ul>li>a:hover{
+   color: whitesmoke;
+      border-bottom: 2px solid blueviolet;
+}
+
+
+
+
+.circle1{
+   position: absolute;
+   height: 60px;
+   width: 60px;
+   background-color: gray;
+   border-radius: 50%;
+   margin-top: 60vh;
+   margin-left: 80vh;
+}
+
+.circle1:hover{
+   background-color: palevioletred;
+}
+
+.circle1>a>img{
+   height: 30px;
+   margin-top: 17px;
+   margin-left: 15px;
+}
+
+
+.circle2{
+   position: absolute;
+   height: 60px;
+   width: 60px;
+   background-color: gray;
+   border-radius: 50%;
+   margin-top: 60vh;
+   margin-left: 92vh;
+}
+
+.circle2:hover{
+   background-color: palevioletred;
+}
+
+.circle2>a>img{
+   height: 30px;
+   margin-top: 15px;
+   margin-left: 10px;
+}
+
+.circle3{
+   position: absolute;
+   height: 60px;
+   width: 60px;
+   background-color: gray;
+   border-radius: 50%;
+   margin-top: 60vh;
+   margin-left: 104vh;
+}
+
+.circle3:hover{
+   background-color: palevioletred;
+}
+
+
+.circle3>a>img{
+   height: 30px;
+   margin-top: 17px;
+   margin-left: 15px;
+}
+
+
+
+
+footer{
+   position: absolute;
+   color: gray;
+   margin-top: 490px;
+   margin-left: 350px;
+}
